@@ -21,8 +21,8 @@
   ],
   "accessWidener": "phosphor.accesswidener",
   "depends": {
-    "fabricloader": ">=0.8.0",
-    "minecraft": "1.19.x"
+    "fabricloader": ">=0.16.7",
+    "minecraft": "1.21.x"
   },
   "breaks": {
     "starlight": "*"
