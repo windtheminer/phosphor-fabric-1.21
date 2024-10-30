@@ -13,7 +13,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
-          distribution: 'termurin'
+          distribution: 'temurin'
           java-version: 21
       - name: Set release tag
         if: startsWith(github.ref, 'refs/tags/')
